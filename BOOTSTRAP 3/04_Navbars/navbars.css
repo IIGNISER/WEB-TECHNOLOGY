@@ -1,0 +1,9 @@
+.navbar{
+	background: #043c98;
+}
+.btn{
+	background: yellow;
+}
+.btn:hover{
+	background: blue;
+}
