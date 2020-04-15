@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Login</h1>
+<form action="https://www.google.com" method="get">
+	<label for="username">Username:</label>
+		<input id="username" type="email" placeholder="email" name="email" required>
+	<label for="password">Password:</label>
+		<input id="password" type="password" placeholder="password" name="password" required>
+		<button>submit</button>
+</form><br>
+<h2>Do you prefer cat or dog?</h2>
+<form>
+	<label for="dogs">Dogs</label>
+	<input id="dogs" name="petchoice" type="radio" value="DOGS">
+	<label for="cats">Cats</label>
+	<input id="cats" name="petchoice" type="radio" value="CATS">
+	<h2>What's your favourite color?</h2>
+	<select name="color">
+		<option>Red</option>
+		<option>Green</option>
+		<option>orange</option>
+		<option>blue</option>
+	</select><br>
+	<h2>What's your current mood</h2>
+	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="normal">:|</option>
+		<option value="sad">:(</option>
+	</select><br>
+	<textarea name="about" rows="10" cols="50"></textarea>
+	<button>Go!</button>
+</form>
+</body>
+</html>
