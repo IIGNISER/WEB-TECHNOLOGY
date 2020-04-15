@@ -1,0 +1,22 @@
+h1 {
+	color: red;
+}
+li {
+	color: green;
+	border: 5px solid red;
+}
+h4 {
+	background: yellow;
+	color: purple;
+}
+#special{
+	color: blue;
+}
+.highlight{
+	color: orange;
+}
+body {
+	background: url(https://c4.wallpaperflare.com/wallpaper/110/246/439/2560x1600-com-rakul-preet-singh-close-up-hd-photos-den-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
